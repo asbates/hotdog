@@ -8,7 +8,7 @@ Let those worries rest because now you can be certain of your hot dogs' authenti
 No more sleepless nights questioning what you ate for dinner.
 With the brand new AI-powered 'Hotdog' app you can be confident that when you order a hot dog, you're getting a hot dog!
 
-Try it today at 
+[Try it today!](https://asbates.shinyapps.io/hotdog/)
 
 
 
