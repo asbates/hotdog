@@ -1,9 +1,12 @@
 
 library(shiny)
+library(shinythemes)
 library(keras)
 
 
 ui <- fluidPage(
+
+  theme = shinytheme("yeti"),
 
   titlePanel("Hotdog? Not Hotdog?", windowTitle = "Hotdog"),
 
@@ -32,7 +35,6 @@ ui <- fluidPage(
     )
 
   )
-
 
 )
 
@@ -80,5 +82,3 @@ server <- function(input, output){
 
 
 shiny::shinyApp(ui = ui, server = server)
-
-
