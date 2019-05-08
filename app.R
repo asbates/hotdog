@@ -10,13 +10,25 @@ ui <- fluidPage(
 
   titlePanel("Hotdog? Not Hotdog?", windowTitle = "Hotdog"),
 
+  br(),
+
+  tags$p("Sometimes you just can't tell if your hot dog is the real deal.
+  It happens to the best of us.
+  You sit down to enjoy your delicious hot dog but suspect it's really a
+         hot dog in disguise."),
+
+tags$p("Let those worries rest because now you can be certain of your hot dogs'
+ authenticity."),
+
+tags$p("Try it now! Just upload an image and find out if it's the real McCoy!"),
+
   sidebarLayout(
 
     sidebarPanel(
 
       fileInput(
         "imageinput",
-        "Choose an image",
+        "Choose an image to upload",
         accept = c('image/png', 'image/jpeg')
 
       ),
